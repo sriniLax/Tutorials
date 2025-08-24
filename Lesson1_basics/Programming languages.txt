@@ -1,0 +1,66 @@
+Programming languages
+0. Assembly level: Computer code --> CPU and GPU, 0,1, --- 0,1,0,1 
+1. Mid level languages: C, C++ --> 
+int x = 32 -- > access the computer address from the program directly
+
+printf("%d",&x) -- prints the address of x, 
+
+*x = 42, the value in that address will change to 42
+
+*x undefined  
+
+
+function print(){
+  int x = 32;
+  print(x);
+}
+
+y = 32 --> different address, 
+
+32 --- dangling
+
+Stand out language -- Rust, 2012 -- open source ----mid level language that functions like a high level language
+
+C, C++, Rust, (Highlevel: Go, Java) -- compiled languages ---> that means you write code ---> read by the compiler--->converts it to machine code -- to assembly --> then you run assembly code 
+
+in windows you create hello.c --> compile -- hello.exe --> output
+
+2. Higher level languages: Java, Go (Compiled)
+-- do not allow memory access directly --- *x, &x ---> C, C++, Rust
+*x --- never allowed in java
+
+function do_something(&x)
+
+Go
+
+--- Java and Go --- Garbage collector
+
+---Higher level languages: Python, R, MATLAB (written in JAVA) --- interpreted
+they run directy no compilation
+--- all of them have garbage collector
+R --> statistics --- not a general purpose programming language
+
+3. About Python:
+Python has the most libraries for all sorts of things
+
+why is it so popular?
+
+because it is a very easy language to use
+
+When did it start? Invented by Gus  Van Rossum --- in 1991, C 1973, C++ 1984, Python 1991, Java in 1993, (Front end language -- JavaScript --> typescript 1995 interpreted language --- web browsers)
+
+C# --> in competition to Java by Microsoft in 2000
+Go in 2009 google
+Rust in 2012
+
+Rust is midlevel (address access, no garbage collector) --> as fast or even faster than C
+
+Go ---> Go run time---> small garbage collector so slower than Rust but significantly faster than Java or C#
+
+Java ---> full fledged garbage collector -- just in time compiler (JIT)--- which makes it fast ---
+
+hello.java --> javac --> bytecode --> JVM --> machine code (JIT) --> 
+
+Python --> slowest of the lot but because so many libraries exist (all written behind in C, C++, or Rust) that makes python fast.
+
+
